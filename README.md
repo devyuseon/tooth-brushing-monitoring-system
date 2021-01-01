@@ -1,4 +1,4 @@
-# ooth-brushing-monitoring-system
+# Tooth-brushing-monitoring-system
 
 ## :sparkles: Description
 라즈베리파이4를 이용한 IOT System. 
