@@ -1,0 +1,54 @@
+table {
+  /* table 스타일 */
+  width: 100%;
+  border-collapse: separate;
+  text-align: center;
+  line-height: 1.5;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-spacing: 1px;
+  margin: 20px 10px;
+}
+thead {
+  /* 제목 부분 */
+  padding: 10px;
+  font-weight: bold;
+  vertical-align: top;
+  background-color: rgb(255, 123, 152);
+  margin: 20px 10px;
+}
+th {
+  width: 100px;
+  padding: 10px;
+}
+td {
+  width: 400px;
+  padding: 10px;
+}
+tr {
+  /* 애니메이션 효과 */
+  transition: 1s;
+}
+tbody tr:nth-child(even) {
+  /* 짝수 <tr>에 적용*/
+  background: rgb(243, 243, 243);
+}
+tbody tr:hover {
+  /* 마우스가 올라오면 pink 배경 */
+  background: pink;
+}
+
+h3 {
+  float: left;
+  margin: 10px;
+}
+
+input {
+  /* 처음으로 돌아가기 버튼 */
+  float: right;
+  border-radius: 10px;
+  border: 0;
+  outline: 0;
+  background-color: rgb(205, 160, 226);
+  padding: 10px;
+}

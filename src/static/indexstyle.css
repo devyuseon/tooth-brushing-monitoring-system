@@ -1,0 +1,93 @@
+.manual {
+  /* 활용 방법 div박스 */
+  box-sizing: content-box;
+  border-style: solid;
+  border-width: 2px 2px 2px 8px;
+  border-color: rgb(61, 97, 255);
+  background-color: rgb(228, 233, 255);
+  padding: 12px;
+  word-break: break-all;
+}
+.view {
+  /* div박스를 나란히 한줄에 있게 해줌 */
+  display: inline;
+}
+
+.info-box {
+  /* 정렬을 위함 */
+  text-align: center;
+  width: 90%;
+  margin: 10px auto;
+  display: flex;
+}
+
+.info-now {
+  /* MQTT통신 나타내는 박스 */
+  border: 1px solid navy;
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.info-history {
+  /* 기록 조회 index */
+  border: 1px solid navy;
+  float: left;
+  margin-left: 5%;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.title {
+  /* 여백 주기 위함 */
+  display: inline-block;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+#connection-form {
+  margin: 10px;
+}
+
+.connection-input {
+  /* ip,port,topic input스타일 */
+  font-size: 15px;
+  margin: 5px;
+  padding: 5px 10px;
+  border: none;
+  border-bottom: 1.3px solid;
+  border-color: rgba(93, 93, 93, 0.774);
+  width: 70%;
+}
+
+.connection-input:focus {
+  /* 클릭했을 때 효과 제거 */
+  outline: none;
+}
+
+.connection-input[type="button"] {
+  /* 확인 버튼 꾸미기 */
+  border: none;
+  padding: 10px;
+  font-size: 15px;
+  width: 75%;
+}
+
+input[type="submit"] {
+  /* 자식 구분하는 submit버튼 */
+  margin: 70px 10px;
+  padding: 20px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 150px;
+  background-color: rgb(255, 177, 168);
+}
+
+#topicName,
+#messages {
+  /* 강조를 하기 위함 */
+  font-weight: 700;
+  color: purple;
+  display: inline;
+}
